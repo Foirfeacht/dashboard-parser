@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="../public/javascripts/jspdf/jspdf.js"></script>
+        <script type="text/javascript" src="../public/javascripts/jspdf/libs/FileSaver.js/FileSaver.js"></script>
+        <script type="text/javascript" src="../public/javascripts/jquery/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="../public/javascripts/jspdf/libs/Downloadify/js/swfobject.js"></script>
+        <script type="text/javascript" src="../public/javascripts/jspdf/libs/html2pdf.js"></script>
+        <script type="text/javascript" src="../public/javascripts/jspdf/libs/html2canvas/dist/html2canvas.js"></script>
+        <script type="text/javascript" src="../public/javascripts/jspdf/plugins/standard_fonts_metrics.js"></script>
+        <script type="text/javascript" src="../public/javascripts/iframetoimage/dist/iframe2image.js"></script>
+
+        <script>
+            $(document).ready(function (){
+                $('#download').click(function () {
+                    var canvas =  document.getElementById("canvas");
+                    alert(canvas);
+                    var context = canvas.getContext("2d");
+                    alert(context);
+                    canvas.width = 500;
+                    canvas.height = 600;
+                    var inner = document.getElementById("iframeid");
+                    alert(inner);
+                    iframe2image(inner, function (err, img) {
+                        if (err) {
+                            return console.error(err);
+                        }
+                        context.drawImage(img, 0, 0);
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+         <div id="content">
+            <iframe src="https://almsaeedstudio.com/AdminLTE" width="1000" height="400" id="iframeid"></iframe>
+         </div>
+         <div id="editor"></div>
+            <input type="button" value="Download" id="download" onclick="window.print()">
+        <canvas id="canvas"></canvas>
+    </body>
+</html>
