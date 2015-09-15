@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47326905-689d-4dc3-948f-b3a24836fd17" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/ChangeLog" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/ChangeLog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/LICENSE.BSD" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/LICENSE.BSD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/README.md" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/arguments.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/arguments.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/arguments.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/arguments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/child_process-examples.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/child_process-examples.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/child_process-examples.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/child_process-examples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/colorwheel.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/colorwheel.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/colorwheel.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/colorwheel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/countdown.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/countdown.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/countdown.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/countdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/detectsniff.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/detectsniff.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/detectsniff.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/detectsniff.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/direction.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/direction.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/direction.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/direction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/echoToFile.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/echoToFile.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/echoToFile.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/echoToFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/features.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/features.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/features.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/features.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/fibo.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/fibo.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/fibo.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/fibo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/follow.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/follow.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/follow.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/follow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/hello.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/hello.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/hello.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/hello.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/imagebin.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/imagebin.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/imagebin.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/imagebin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/injectme.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/injectme.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/injectme.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/injectme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/ipgeocode.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/ipgeocode.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/ipgeocode.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/ipgeocode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/loadspeed.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/loadspeed.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/loadspeed.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/loadspeed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/loadurlwithoutcss.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/loadurlwithoutcss.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/loadurlwithoutcss.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/loadurlwithoutcss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/modernizr.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/module.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/module.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/module.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/movies.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/movies.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/movies.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/movies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/netlog.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/netlog.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/netlog.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/netlog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/netsniff.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/netsniff.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/netsniff.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/netsniff.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/outputEncoding.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/outputEncoding.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/outputEncoding.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/outputEncoding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/page_events.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/page_events.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/page_events.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/page_events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/pagecallback.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/pagecallback.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/pagecallback.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/pagecallback.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/parser-dashboard.iml" afterPath="$PROJECT_DIR$/.idea/parser-dashboard.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/phantomjs" afterPath="$PROJECT_DIR$/node_modules/.bin/phantomjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/phantomwebintro.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/phantomwebintro.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/phantomwebintro.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/phantomwebintro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/pizza.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/pizza.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/pizza.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/pizza.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/post.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/post.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/post.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/postserver.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/postserver.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/postserver.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/postserver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printenv.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printenv.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printenv.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printenv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printheaderfooter.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printheaderfooter.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printheaderfooter.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printheaderfooter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printmargins.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printmargins.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printmargins.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/printmargins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/rasterize.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/rasterize.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/rasterize.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/rasterize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/render_multi_url.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/render_multi_url.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/render_multi_url.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/render_multi_url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/run-jasmine.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/run-jasmine.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/run-jasmine.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/run-jasmine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/run-qunit.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/run-qunit.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/run-qunit.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/run-qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/scandir.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/scandir.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/scandir.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/scandir.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/seasonfood.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/seasonfood.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/seasonfood.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/seasonfood.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/server.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/server.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/server.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/serverkeepalive.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/serverkeepalive.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/serverkeepalive.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/serverkeepalive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/simpleserver.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/simpleserver.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/simpleserver.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/simpleserver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/sleepsort.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/sleepsort.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/sleepsort.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/sleepsort.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/stdin-stdout-stderr.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/stdin-stdout-stderr.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/stdin-stdout-stderr.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/stdin-stdout-stderr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/technews.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/technews.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/technews.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/technews.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/third-party.txt" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/third-party.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/tweets.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/tweets.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/tweets.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/tweets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/universe.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/universe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/unrandomize.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/unrandomize.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/unrandomize.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/unrandomize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/useragent.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/useragent.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/useragent.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/useragent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/version.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/version.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/version.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/waitfor.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/waitfor.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/waitfor.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/waitfor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/walk_through_frames.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/walk_through_frames.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/walk_through_frames.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/walk_through_frames.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/weather.coffee" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/weather.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/weather.js" afterPath="$PROJECT_DIR$/node_modules/phantomjs/lib/phantom/examples/weather.js" />
+      <change type="MOVED" beforePath="D:\web\parser-dashboard\views\index.html" afterPath="$PROJECT_DIR$/views/index.ejs" />
+    </list>
+    <ignored path="parser-dashboard.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="parser-dashboard" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+              <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.115385" vertical-offset="51" max-vertical-offset="952">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="425">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <marker date="1442332668321" expanded="true" signature="0:382" placeholder="{&quot;name&quot;: &quot;parser-dashboard&quot;...}" />
+                <marker date="1442332668321" expanded="true" signature="141:380" placeholder="{&quot;body-parser&quot;: &quot;~1.13.2&quot;...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3949115" vertical-offset="0" max-vertical-offset="904">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager" selected="Node.js.bin\www">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.bin\www" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47326905-689d-4dc3-948f-b3a24836fd17" name="Default" comment="" />
+      <created>1442329630262</created>
+      <option name="number" value="Default" />
+      <updated>1442329630262</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="425">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1442332668321" expanded="true" signature="0:382" placeholder="{&quot;name&quot;: &quot;parser-dashboard&quot;...}" />
+            <marker date="1442332668321" expanded="true" signature="141:380" placeholder="{&quot;body-parser&quot;: &quot;~1.13.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.115385" vertical-offset="51" max-vertical-offset="952">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3949115" vertical-offset="0" max-vertical-offset="904">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

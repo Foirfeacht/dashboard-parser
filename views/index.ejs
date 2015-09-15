@@ -25,12 +25,27 @@
 
                 window.open(img);
             }
+
+           function print(){
+               console.log('clicked');
+               $.ajax({
+                   url: '/print',
+                   success: function(){
+                       console.log('success')
+                   },
+                   error: function(){
+                       console.log('error')
+                   }
+               });
+           }
         </script>
+
+
     </head>
     <body>
          <div id="content">
             <iframe src="https://tut.by" width="1000" height="400" id="iframeid"></iframe>
          </div>
-            <input type="button" value="Download" id="download" onclick="javascript:download()">
+            <input type="button" value="Download" id="download" onclick="print()">
     </body>
 </html>
