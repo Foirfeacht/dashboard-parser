@@ -1,11 +1,14 @@
 var express = require('express');
 var router = express.Router();
 var pdf = require('pdfcrowd');
+var fs = require('fs');
 var wkhtmltopdf = require('wkhtmltopdf');
 var phantom = require('phantom');
 //var pdf = require('phantom-html2pdf');
 //var pdf = require('html-pdf');
 var webshot = require('webshot');
+var PDFDocument = require('pdfkit');
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -39,10 +42,52 @@ router.get('/print', function(req, res, next) {
 	});*/
 
 	//wkhtmltopdf('https://almsaeedstudio.com/AdminLTE', { output: './public/output/out.pdf' });
-	webshot('https://almsaeedstudio.com/AdminLTE', './public/output/out.pdf', function(err) {
+	/*webshot('https://almsaeedstudio.com/AdminLTE', './public/output/out.pdf', function(err) {
 		// screenshot now saved to google.png
 		console.log('saved');
+	});*/
+	/*var doc = new PDFDocument;
+	doc.addPage().link(100, 100, 160, 27, 'https://almsaeedstudio.com/AdminLTE');
+	doc.pipe(fs.createWriteStream('./public/output/out.pdf'));
+
+	//
+
+	doc.end();*/
+
+	/*phantom.create(function(ph){
+		ph.createPage(function(page) {
+			page.open("https://almsaeedstudio.com/AdminLTE", function(status) {
+				page.render('google.pdf', function(){
+
+					console.log('Page Rendered');
+					ph.exit();
+
+				});
+			});
+		});
+	});*/
+
+	phantom.create(function(ph) {
+		return ph.createPage(function(page) {
+			return page.open("https://almsaeedstudio.com/AdminLTE", function(status) {
+				console.log("opened page? ", status);
+				return page.render('out', function(){
+
+					console.log('Page Rendered');
+					var pdf = fs.read('out');
+					fs.write("./public/output/", pdf, "w");
+					console.log('created');
+					return ph.exit();
+
+				});
+			});
+		});
+	}, {
+		dnodeOpts: {weak: false}
 	});
+
+	//doc.write("./public/output/output.pdf");
+	console.log('saved');
 
 });
 
