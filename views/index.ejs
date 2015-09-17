@@ -8,17 +8,18 @@
         function print() {
             console.log('clicked');
             var data = {urlAddress: $('#urlField').val()};
+            alert(data);
             $.ajax({
                 url: '/print',
                 type: 'POST',
                 data: JSON.stringify(data),
                 contentType: 'application/json',
-                dataType:'json',
-                success: function (data) {
-                    console.log('success')
+                dataType: 'json',
+                success: function (returned) {
+                    alert(returned);
                 },
-                error: function () {
-                    console.log('error')
+                error: function (returned) {
+                    alert('Problems on parsing web page to pdf...\n' + returned.status + ' ' + returned.Content-Type );
                 }
             });
         }

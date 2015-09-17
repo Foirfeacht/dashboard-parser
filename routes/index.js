@@ -1,8 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var fs = require('fs');
 var phantom = require('phantom');
-var util = require('util');
+var fs = require('fs');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -11,15 +10,16 @@ router.get('/', function (req, res, next) {
 
 router.post('/print', function (req, res, next) {
     console.log('start');
+    console.log(req.body.urlAddress);
     if (!req.body.urlAddress) {
         req.body.urlAddress = 'https://almsaeedstudio.com/AdminLTE';
     }
-    util.log('Request: \n method: ' + req.method + '\n url: ' + req.url)
     phantom.create(function (ph) {
         ph.createPage(function (page) {
             page.open(req.body.urlAddress, function (status) {
                 console.log(status);
-                var serverPath ='./public/output/' + req.body.urlAddress.replace('://', '_').replace(' ', '_').replace('.', '_').replace('/','_') + '.pdf';
+                var fileName = req.body.urlAddress.replace('://', '_').replace(' ', '_').replace('.', '_').replace('/', '_');
+                var serverPath = './public/output/' + fileName + '.pdf';
                 console.log(serverPath);
                 page.render(serverPath, {format: 'pdf', quality: '100'});
                 ph.exit();
@@ -29,6 +29,7 @@ router.post('/print', function (req, res, next) {
     }, {
         dnodeOpts: {weak: false}
     });
+    console.log('not async finished');
 });
 
 module.exports = router;
